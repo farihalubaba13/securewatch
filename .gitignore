@@ -1,0 +1,15 @@
+# Keeps the reports folder in GitHub
+reports/*
+!reports/.gitkeep
+
+# Log file for real-time monitoring tests
+sample_logs/live_demo.log
+
+# Never upload real system logs to GitHub
+*_copy.log
+journal_auth.log
+
+# Files created by code editors
+.vscode/
+*.swp
+*~
