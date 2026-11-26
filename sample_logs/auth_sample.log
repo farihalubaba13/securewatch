@@ -1,0 +1,93 @@
+Nov 20 00:05:01 srv01 CRON[1101]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 20 00:05:01 srv01 CRON[1101]: pam_unix(cron:session): session closed for user root
+Nov 20 01:22:10 srv01 sshd[1180]: Accepted publickey for charlie from 192.168.1.20 port 51522 ssh2: ED25519 SHA256:k3Jx8Qm2Lw5Tn7Vb1Yc4Rf9Hs6Pd0Ga3Ze2Ux7Wq5
+Nov 20 01:22:10 srv01 sshd[1180]: pam_unix(sshd:session): session opened for user charlie(uid=1003) by (uid=0)
+Nov 20 01:58:43 srv01 sshd[1180]: pam_unix(sshd:session): session closed for user charlie
+Nov 20 03:10:02 srv01 sshd[1201]: Failed password for root from 203.0.113.5 port 40112 ssh2
+Nov 20 03:10:06 srv01 sshd[1201]: Failed password for root from 203.0.113.5 port 40112 ssh2
+Nov 20 03:10:09 srv01 sshd[1201]: Connection closed by authenticating user root 203.0.113.5 port 40112 [preauth]
+Nov 20 03:10:11 srv01 sshd[1204]: Failed password for root from 203.0.113.5 port 40118 ssh2
+Nov 20 03:10:15 srv01 sshd[1204]: Failed password for root from 203.0.113.5 port 40118 ssh2
+Nov 20 03:10:18 srv01 sshd[1204]: Connection closed by authenticating user root 203.0.113.5 port 40118 [preauth]
+Nov 20 03:10:20 srv01 sshd[1207]: Failed password for root from 203.0.113.5 port 40126 ssh2
+Nov 20 03:10:24 srv01 sshd[1207]: Failed password for root from 203.0.113.5 port 40126 ssh2
+Nov 20 03:10:27 srv01 sshd[1207]: Connection closed by authenticating user root 203.0.113.5 port 40126 [preauth]
+Nov 20 03:10:29 srv01 sshd[1210]: Failed password for root from 203.0.113.5 port 40134 ssh2
+Nov 20 03:10:33 srv01 sshd[1210]: Failed password for root from 203.0.113.5 port 40134 ssh2
+Nov 20 03:10:36 srv01 sshd[1210]: Connection closed by authenticating user root 203.0.113.5 port 40134 [preauth]
+Nov 20 03:10:38 srv01 sshd[1213]: Failed password for root from 203.0.113.5 port 40140 ssh2
+Nov 20 03:10:42 srv01 sshd[1213]: Failed password for root from 203.0.113.5 port 40140 ssh2
+Nov 20 03:10:45 srv01 sshd[1213]: Connection closed by authenticating user root 203.0.113.5 port 40140 [preauth]
+Nov 20 03:10:47 srv01 sshd[1216]: Failed password for root from 203.0.113.5 port 40146 ssh2
+Nov 20 03:10:50 srv01 sshd[1216]: Failed password for root from 203.0.113.5 port 40146 ssh2
+Nov 20 03:10:52 srv01 sshd[1216]: Received disconnect from 203.0.113.5 port 40146:11: Bye Bye [preauth]
+Nov 20 03:14:22 srv01 sshd[1250]: Accepted password for root from 10.0.0.25 port 52144 ssh2
+Nov 20 03:14:22 srv01 sshd[1250]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Nov 20 03:31:09 srv01 sshd[1250]: pam_unix(sshd:session): session closed for user root
+Nov 20 05:02:10 srv01 sshd[1302]: Accepted publickey for dave from 192.168.1.30 port 60210 ssh2: RSA SHA256:Pq7Lm2Xs9Vb4Kd1Nw6Ty3Hc8Jf5Rg0Ae2Uz7Qo4Bi
+Nov 20 05:02:10 srv01 sshd[1302]: pam_unix(sshd:session): session opened for user dave(uid=1004) by (uid=0)
+Nov 20 05:40:11 srv01 sshd[1340]: Invalid user admin from 198.51.100.7 port 41022
+Nov 20 05:40:13 srv01 sshd[1340]: Failed password for invalid user admin from 198.51.100.7 port 41022 ssh2
+Nov 20 05:40:19 srv01 sshd[1343]: Invalid user test from 198.51.100.7 port 41030
+Nov 20 05:40:21 srv01 sshd[1343]: Failed password for invalid user test from 198.51.100.7 port 41030 ssh2
+Nov 20 05:40:27 srv01 sshd[1346]: Invalid user oracle from 198.51.100.7 port 41038
+Nov 20 05:40:29 srv01 sshd[1346]: Failed password for invalid user oracle from 198.51.100.7 port 41038 ssh2
+Nov 20 05:40:35 srv01 sshd[1349]: Invalid user admin from 198.51.100.7 port 41046
+Nov 20 05:40:37 srv01 sshd[1349]: Failed password for invalid user admin from 198.51.100.7 port 41046 ssh2
+Nov 20 05:40:43 srv01 sshd[1352]: Invalid user test from 198.51.100.7 port 41054
+Nov 20 05:40:45 srv01 sshd[1352]: Failed password for invalid user test from 198.51.100.7 port 41054 ssh2
+Nov 20 05:40:51 srv01 sshd[1355]: Invalid user oracle from 198.51.100.7 port 41062
+Nov 20 05:40:53 srv01 sshd[1355]: Failed password for invalid user oracle from 198.51.100.7 port 41062 ssh2
+Nov 20 05:40:55 srv01 sshd[1355]: Connection closed by invalid user oracle 198.51.100.7 port 41062 [preauth]
+Nov 20 06:12:30 srv01 sshd[1302]: pam_unix(sshd:session): session closed for user dave
+Nov 20 09:02:10 srv01 sshd[2001]: Accepted publickey for manal from 192.168.1.10 port 50000 ssh2: ED25519 SHA256:Wm4Rt8Yn2Kc6Vx1Lb9Pz3Hd7Qs5Gf0Ja2Ne8Uc4Xo
+Nov 20 09:02:10 srv01 sshd[2001]: pam_unix(sshd:session): session opened for user manal(uid=1001) by (uid=0)
+Nov 20 09:02:10 srv01 systemd-logind[640]: New session 11 of user manal.
+Nov 20 09:05:33 srv01 sudo:    manal : TTY=pts/0 ; PWD=/home/manal ; USER=root ; COMMAND=/usr/bin/apt update
+Nov 20 09:05:33 srv01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by manal(uid=1001)
+Nov 20 09:06:02 srv01 sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 09:30:04 srv01 sshd[2050]: Failed password for bob from 192.168.1.15 port 50122 ssh2
+Nov 20 09:30:15 srv01 sshd[2050]: Accepted password for bob from 192.168.1.15 port 50122 ssh2
+Nov 20 09:30:15 srv01 sshd[2050]: pam_unix(sshd:session): session opened for user bob(uid=1002) by (uid=0)
+Nov 20 09:30:15 srv01 systemd-logind[640]: New session 12 of user bob.
+Nov 20 12:00:01 srv01 CRON[2150]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 20 12:00:01 srv01 CRON[2150]: pam_unix(cron:session): session closed for user root
+Nov 20 13:20:41 srv01 sshd[2210]: Invalid user ubuntu from 203.0.113.80 port 33810
+Nov 20 13:20:43 srv01 sshd[2210]: Failed password for invalid user ubuntu from 203.0.113.80 port 33810 ssh2
+Nov 20 13:21:05 srv01 sshd[2214]: Invalid user pi from 203.0.113.80 port 33842
+Nov 20 13:21:07 srv01 sshd[2214]: Failed password for invalid user pi from 203.0.113.80 port 33842 ssh2
+Nov 20 14:05:12 srv01 sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1002 euid=0 tty=/dev/pts/1 ruser=bob rhost=  user=bob
+Nov 20 14:05:20 srv01 sudo:      bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Nov 20 14:05:20 srv01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by bob(uid=1002)
+Nov 20 14:05:21 srv01 sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 16:40:03 srv01 sudo:    guest : user NOT in sudoers ; TTY=pts/2 ; PWD=/home/guest ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Nov 20 17:45:18 srv01 sudo:    manal : TTY=pts/0 ; PWD=/home/manal ; USER=root ; COMMAND=/usr/bin/tail -n 50 /var/log/syslog
+Nov 20 17:45:18 srv01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by manal(uid=1001)
+Nov 20 17:45:19 srv01 sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 18:10:44 srv01 sshd[2001]: pam_unix(sshd:session): session closed for user manal
+Nov 20 18:32:05 srv01 sshd[2050]: pam_unix(sshd:session): session closed for user bob
+Nov 20 22:15:01 srv01 sshd[2601]: Failed password for manal from 192.0.2.44 port 61001 ssh2
+Nov 20 22:15:09 srv01 sshd[2601]: Failed password for manal from 192.0.2.44 port 61001 ssh2
+Nov 20 22:15:18 srv01 sshd[2604]: Failed password for manal from 192.0.2.44 port 61008 ssh2
+Nov 20 22:15:30 srv01 sshd[2604]: Failed password for manal from 192.0.2.44 port 61008 ssh2
+Nov 20 22:15:44 srv01 sshd[2607]: Failed password for manal from 192.0.2.44 port 61015 ssh2
+Nov 20 22:15:58 srv01 sshd[2607]: Failed password for manal from 192.0.2.44 port 61015 ssh2
+Nov 20 22:16:15 srv01 sshd[2610]: Failed password for manal from 192.0.2.44 port 61022 ssh2
+Nov 20 22:16:30 srv01 sshd[2610]: Failed password for manal from 192.0.2.44 port 61022 ssh2
+Nov 20 22:16:45 srv01 sshd[2640]: Accepted password for manal from 192.0.2.44 port 61040 ssh2
+Nov 20 22:16:45 srv01 sshd[2640]: pam_unix(sshd:session): session opened for user manal(uid=1001) by (uid=0)
+Nov 20 22:17:02 srv01 sudo:    manal : TTY=pts/3 ; PWD=/home/manal ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Nov 20 22:17:02 srv01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by manal(uid=1001)
+Nov 20 22:17:03 srv01 sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 22:25:37 srv01 sshd[2640]: pam_unix(sshd:session): session closed for user manal
+Nov 21 00:05:01 srv01 CRON[3001]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 21 00:05:01 srv01 CRON[3001]: pam_unix(cron:session): session closed for user root
+Nov 21 08:55:12 srv01 sshd[3101]: Accepted publickey for manal from 192.168.1.10 port 50410 ssh2: ED25519 SHA256:Wm4Rt8Yn2Kc6Vx1Lb9Pz3Hd7Qs5Gf0Ja2Ne8Uc4Xo
+Nov 21 08:55:12 srv01 sshd[3101]: pam_unix(sshd:session): session opened for user manal(uid=1001) by (uid=0)
+Nov 21 09:10:27 srv01 sudo:    manal : TTY=pts/0 ; PWD=/home/manal ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+Nov 21 09:10:27 srv01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by manal(uid=1001)
+Nov 21 09:10:28 srv01 sudo: pam_unix(sudo:session): session closed for user root
+Nov 21 10:30:48 srv01 sshd[3150]: Accepted password for eve from 192.168.1.40 port 49822 ssh2
+Nov 21 10:30:48 srv01 sshd[3150]: pam_unix(sshd:session): session opened for user eve(uid=1005) by (uid=0)
+Nov 21 11:02:16 srv01 sshd[3150]: pam_unix(sshd:session): session closed for user eve
+Nov 21 12:40:55 srv01 sshd[3101]: pam_unix(sshd:session): session closed for user manal
